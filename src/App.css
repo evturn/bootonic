@@ -30,7 +30,7 @@
 }
 
 @keyframes pulsate {
-  0% { transform: scale(0.75); }
+  0% { transform: scale(0.65); }
   50% { transform: scale(1); }
-  to { transform: scale(0.75); }
+  to { transform: scale(0.65); }
 }
