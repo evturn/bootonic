@@ -8,10 +8,20 @@
 }
 
 .header {
-  background-color: #E4001B;
+  background-color: #B21616;
   height: 90px;
   padding: 20px;
   color: white;
+}
+
+.landing {
+  margin: 0 auto;
+}
+
+.img {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
 }
 
 @keyframes spin {

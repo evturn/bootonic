@@ -11,6 +11,12 @@ class App extends Component {
             className="logo" 
             alt="Bootonic logo" />
         </div>
+        <div className="landing">
+          <img 
+            alt="Red logo with sprinkles"
+            className="img"
+            src="https://www.dropbox.com/s/dmq48wcxikdbyny/nabisco-sharpened.png?dl=1" />
+        </div>
       </div>
     );
   }
