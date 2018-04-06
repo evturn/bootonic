@@ -2,13 +2,20 @@
   text-align: center;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #BF0200;
+}
+
 .logo {
   animation: spin infinite 3s linear, pulsate infinite 5s ease-in-out;
   height: 80px;
 }
 
 .header {
-  background-color: #B21616;
+  background-color: #BF0200;
   height: 90px;
   padding: 20px;
   color: white;
@@ -16,11 +23,12 @@
 
 .landing {
   margin: 0 auto;
+  width: 275px;
+  text-align: left;
 }
 
 .img {
-  text-align: center;
-  max-width: 100%;
+  width: 100px;
   height: auto;
 }
 
