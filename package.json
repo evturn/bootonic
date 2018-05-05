@@ -1,6 +1,6 @@
 {
   "name": "bootonic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.2",
@@ -24,7 +24,6 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "serve": "nohup node --experimental-modules index.mjs &",
     "build": "node scripts/build.js"
   },
   "babel": {
