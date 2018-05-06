@@ -1,8 +1,8 @@
 /node_modules
-/static
+public/static
 /coverage
-
 /build
+config/
 
 .DS_Store
 .env.local
