@@ -1,0 +1,12 @@
+{
+  "initialSkin": {
+    "url": "/static/media/base-2.91.wsz"
+  },
+  "initialTracks": [{
+    "metaData": {
+      "artist": "Bootonic",
+      "title": "Frozen Foods"
+    },
+    "url": "/static/media/frozen-foods.mp3"
+  }]
+}
