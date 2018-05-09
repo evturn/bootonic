@@ -1,19 +1,25 @@
 import React, { Component } from 'react';
-import Player from '../Player';
-import data from '../static/data.json';
+import Winamp from 'winamp2-js';
+import data from './data.json';
 import './style.css';
 
 class App extends Component {
+  componentDidMount() {
+    const winamp = new Winamp(data);
+    winamp.renderWhenReady(document.getElementById('player'));
+  }
+
   render() {
     return (
       <div className="root">
-        <div className="header">
+        <div className="footer">
           <img 
-            src="https://www.dropbox.com/s/7pax8utugwnj2r8/favicon.png?dl=1"
-            className="logo" 
-            alt="Bootonic logo" />
+            className="footer-img"
+            src="/static/media/footer.png" />
+          <div className="copyright">
+            © {new Date().getFullYear()}
+          </div>
         </div>
-        <Player {...data} />
       </div>
     );
   }

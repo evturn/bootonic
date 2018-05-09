@@ -1,5 +1,9 @@
 .root {
   text-align: center;
+  height: 100vh; 
+  background-repeat: no-repeat; 
+  background-size: 125px;
+  background-image: url('/static/media/nab.png');
 }
 
 body {
@@ -9,36 +13,33 @@ body {
   background-color: #BF0200;
 }
 
-.logo {
-  animation: spin infinite 3s linear, pulsate infinite 5s ease-in-out;
-  height: 80px;
+.footer {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  height: 60px;
+  width: auto;
 }
 
-.header {
-  background-color: #BF0200;
-  height: 90px;
-  padding: 20px;
-  color: white;
+.footer-img {
+  height: 60px;
+  width: auto;
+  animation: pulsate 2.3s infinite ease-out;
 }
 
-.landing {
-  margin: 0 auto;
-  width: 275px;
-  text-align: left;
-}
-
-.img {
-  width: 100px;
-  height: auto;
-}
-
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.copyright {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  right: 0;
+  font-size: 10px;
+  font-family: 'HelveticaNeue-Light';
+  color: #101010
 }
 
 @keyframes pulsate {
-  0% { transform: scale(0.65); }
+  0% { transform: scale(0.90); }
   50% { transform: scale(1); }
-  to { transform: scale(0.65); }
+  to { transform: scale(0.90); }
 }
